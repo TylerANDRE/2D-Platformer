@@ -10,3 +10,10 @@ func add_point():
 
 func _on_retry_pressed() -> void:
 	get_tree().reload_current_scene()
+
+
+func _on_mute_toggled(toggled_on: bool) -> void:
+	if toggled_on:
+		AudioController.mute = true
+	else:
+		AudioController.mute = false

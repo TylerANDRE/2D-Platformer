@@ -6,3 +6,4 @@ res://scenes/collectable.gd
 res://scenes/game_end.gd
 res://scenes/main_menu.tscn
 res://Sounds/audio_controller.tscn
+res://scenes/game_manager.gd

@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://dm802ftqcydxi"]
+[gd_scene load_steps=12 format=3 uid="uid://dm802ftqcydxi"]
 
 [ext_resource type="Script" path="res://scenes/game_manager.gd" id="1_gpw8i"]
 [ext_resource type="Texture2D" uid="uid://c3x0nca1ayse5" path="res://Assets/backgrounds/Green.png" id="2_dvyqm"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://deyy6flf8vf5" path="res://scenes/collectable.tscn" id="5_fkacl"]
 [ext_resource type="PackedScene" uid="uid://c28ofm18hfdoj" path="res://scenes/game_end.tscn" id="6_aikht"]
 [ext_resource type="PackedScene" uid="uid://crnv258puarvk" path="res://scenes/level_2.tscn" id="7_w4lxv"]
+[ext_resource type="Theme" uid="uid://cpfyuepkarruu" path="res://Assets/Themes/Buttons.tres" id="8_q8atu"]
 [ext_resource type="Texture2D" uid="uid://c3tia3sgkwchv" path="res://Assets/Menu Buttons/Restart.png" id="8_qn4k2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_74sq6"]
@@ -396,6 +397,25 @@ offset_top = 4.0
 offset_right = -4.0
 offset_bottom = 75.0
 grow_horizontal = 0
+theme = ExtResource("8_q8atu")
+icon = ExtResource("8_qn4k2")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Mute" type="Button" parent="UI"]
+unique_name_in_owner = true
+texture_filter = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -149.0
+offset_top = 4.0
+offset_right = -80.0
+offset_bottom = 75.0
+grow_horizontal = 0
+theme = ExtResource("8_q8atu")
+toggle_mode = true
+action_mode = 0
 icon = ExtResource("8_qn4k2")
 icon_alignment = 1
 expand_icon = true
@@ -420,3 +440,4 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [connection signal="pressed" from="UI/Retry" to="GameManager" method="_on_retry_pressed"]
+[connection signal="toggled" from="UI/Mute" to="GameManager" method="_on_mute_toggled"]
