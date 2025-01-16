@@ -1,0 +1,8 @@
+res://scenes/level_1.tscn
+res://Sounds/AudioController.tscn
+res://Sounds/audio_controller.gd
+res://scenes/main_character.gd
+res://scenes/collectable.gd
+res://scenes/game_end.gd
+res://scenes/main_menu.tscn
+res://Sounds/audio_controller.tscn

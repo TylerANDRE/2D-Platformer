@@ -1,0 +1,51 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1737059630
+::res://addons/::1737050788
+::res://addons/godot-git-plugin/::1737050788
+git_plugin.gdextension::GDExtension::-1::1737050788::0::1::::<><>::
+plugin.cfg::TextFile::-1::1737050788::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1737050788::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1737050788
+::res://addons/godot-git-plugin/macos/::1737050788
+::res://addons/godot-git-plugin/win64/::1737050788
+::res://Assets/::1737050467
+Cool Text - Jumpy Man 473676721255179.png::CompressedTexture2D::1509114427560657026::1736981868::1737050467::1::::<><>::
+::res://Assets/backgrounds/::1737050467
+Brown.png::CompressedTexture2D::8268387723246242040::1736981868::1737050467::1::::<><>::
+Green.png::CompressedTexture2D::6787150923963394542::1736981868::1737050467::1::::<><>::
+Pink.png::CompressedTexture2D::4793526551017772851::1736981868::1737050467::1::::<><>::
+::res://Assets/characters/::1737050467
+Idle (32x32).png::CompressedTexture2D::3944279584382587303::1736981868::1737050467::1::::<><>::
+Jump (32x32).png::CompressedTexture2D::972433039905161558::1736981868::1737050467::1::::<><>::
+Run (32x32).png::CompressedTexture2D::1028632767584126568::1736981868::1737050467::1::::<><>::
+::res://Assets/items/::1737050467
+End (Idle).png::CompressedTexture2D::3630359887803121512::1736981868::1737050467::1::::<><>::
+End (Pressed) (64x64).png::CompressedTexture2D::8157204849479985919::1736981868::1737050467::1::::<><>::
+Pineapple.png::CompressedTexture2D::6623400468976552934::1736981868::1737050467::1::::<><>::
+::res://Assets/Menu Buttons/::1737050467
+Restart.png::CompressedTexture2D::6777839401267503003::1736981868::1737050467::1::::<><>::
+::res://Assets/tilemap/::1737050467
+Terrain (16x16).png::CompressedTexture2D::8518840448635116356::1736981868::1737050467::1::::<><>::
+::res://scenes/::1737059615
+collectable.gd::GDScript::-1::1736981868::0::1::::<>Area2D<>::
+collectable.tscn::PackedScene::220325745266118292::1736981868::0::1::::<><>::uid://c1moo5mpo0k27::::res://Assets/items/Pineapple.png<>res://scenes/collectable.gd
+game_end.gd::GDScript::-1::1736981868::0::1::::<>Area2D<>::
+game_end.tscn::PackedScene::6736924250319344425::1736981868::0::1::::<><>::uid://brytq5qebn1ea::::res://Assets/items/End (Idle).png<>res://scenes/game_end.gd
+game_manager.gd::GDScript::-1::1736981868::0::1::::<>Node<>::
+level_1.tscn::PackedScene::8071219074572879810::1737058252::0::1::::<><>::res://scenes/game_manager.gd<>uid://c3x0nca1ayse5::::res://Assets/backgrounds/Green.png<>uid://dtmub7s1ageyu::::res://Assets/tilemap/Terrain (16x16).png<>uid://kqktoi7cqmw::::res://scenes/main_character.tscn<>uid://deyy6flf8vf5::::res://scenes/collectable.tscn<>uid://c28ofm18hfdoj::::res://scenes/game_end.tscn<>uid://crnv258puarvk::::res://scenes/level_2.tscn<>uid://c3tia3sgkwchv::::res://Assets/Menu Buttons/Restart.png
+level_2.tscn::PackedScene::5994213520706386168::1736981868::0::1::::<><>::res://scenes/game_manager.gd<>uid://cakaxglpmqmxv::::res://Assets/backgrounds/Pink.png<>uid://dtmub7s1ageyu::::res://Assets/tilemap/Terrain (16x16).png<>uid://kqktoi7cqmw::::res://scenes/main_character.tscn<>uid://deyy6flf8vf5::::res://scenes/collectable.tscn<>uid://c28ofm18hfdoj::::res://scenes/game_end.tscn<>uid://d13kwowm5jpv::::res://scenes/level_3.tscn<>uid://c3tia3sgkwchv::::res://Assets/Menu Buttons/Restart.png
+level_3.tscn::PackedScene::265959464413931687::1736981868::0::1::::<><>::res://scenes/game_manager.gd<>uid://c3x0nca1ayse5::::res://Assets/backgrounds/Green.png<>uid://dtmub7s1ageyu::::res://Assets/tilemap/Terrain (16x16).png<>uid://kqktoi7cqmw::::res://scenes/main_character.tscn<>uid://deyy6flf8vf5::::res://scenes/collectable.tscn<>uid://c28ofm18hfdoj::::res://scenes/game_end.tscn<>uid://dbu86mfhjfnpr::::res://scenes/main_menu.tscn<>uid://c3tia3sgkwchv::::res://Assets/Menu Buttons/Restart.png
+level_end.gd::GDScript::-1::1736981868::0::1::::<>Area2D<>::
+level_end.tscn::PackedScene::6492514528362936720::1736981868::0::1::::<><>::uid://dohn8by7yih6f::::res://Assets/items/End (Pressed) (64x64).png<>res://scenes/level_end.gd<>uid://brytq5qebn1ea::::res://Assets/items/End (Idle).png
+main_character.gd::GDScript::-1::1736981868::0::1::::<>CharacterBody2D<>::
+main_character.tscn::PackedScene::21634127341168382::1736981868::0::1::::<><>::uid://n4b3ht8fdaao::::res://Assets/characters/Jump (32x32).png<>res://scenes/main_character.gd<>uid://bwgvydaopkpdf::::res://Assets/characters/Idle (32x32).png<>uid://owjowxvk2p0c::::res://Assets/characters/Run (32x32).png
+main_menu.gd::GDScript::-1::1736981868::0::1::::<>Node<>::
+main_menu.tscn::PackedScene::7272798108505387035::1736981868::0::1::::<><>::res://scenes/main_menu.gd<>uid://dp2jexjedhcf5::::res://Assets/backgrounds/Brown.png<>uid://vra5nvggs2be::::res://Assets/Cool Text - Jumpy Man 473676721255179.png
+retry.gd::GDScript::-1::1736981868::0::1::::<>Button<>::
+::res://Sounds/::1737059630
+CoinPickup.wav::AudioStreamWAV::8742161618662771005::1736981868::1737059630::1::::<><>::
+Jump.wav::AudioStreamWAV::5623561185849795665::1736981868::1737059630::1::::<><>::
+PlayerHurt.wav::AudioStreamWAV::445971706909173347::1736981868::1737059630::1::::<><>::
+PowerUp.wav::AudioStreamWAV::8679246107499956318::1736981868::1737059630::1::::<><>::
+Retro Music - ABMU - ChipWave 01.wav::AudioStreamWAV::5032041056054253315::1737059608::1737059630::1::::<><>::
+Retro Success Melody 04 - electric piano 2.wav::AudioStreamWAV::359628883917606375::1737059588::1737059630::1::::<><>::

@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=3 uid="uid://c1xbesouua68u"]
+
+[ext_resource type="Script" path="res://Sounds/audio_controller.gd" id="1_juuo8"]
+[ext_resource type="AudioStream" uid="uid://cdxs8mblm2yop" path="res://Sounds/Retro Music - ABMU - ChipWave 01.wav" id="1_rg45g"]
+[ext_resource type="AudioStream" uid="uid://cmedh4f42lnfl" path="res://Sounds/Jump.wav" id="2_mk1m2"]
+[ext_resource type="AudioStream" uid="uid://dws1eib2u1sjt" path="res://Sounds/CoinPickup.wav" id="3_2hr5c"]
+[ext_resource type="AudioStream" uid="uid://fehbgwssgim6" path="res://Sounds/Retro Success Melody 04 - electric piano 2.wav" id="4_1h81j"]
+
+[node name="AudioController" type="Node2D"]
+script = ExtResource("1_juuo8")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_rg45g")
+
+[node name="Jump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_mk1m2")
+
+[node name="PickupFruit" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_2hr5c")
+
+[node name="LevelEnd" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_1h81j")
